@@ -21,3 +21,6 @@ python3 -m pip install colorama argparse  #linux & Macos
 ```sh
 pip install colorama argparse #windows
 ```
+
+<h1>Son yenilikler:</h1>
+<p>Ek olarak python projelerinde kullanılabilmesi için direk modül olarak destek eklenmiştir</p>
