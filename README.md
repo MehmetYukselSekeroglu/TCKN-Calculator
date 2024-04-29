@@ -1,26 +1,44 @@
- # Tc hesaplayıcı
+ # TCKN-Calculator
 
-<h1>Ne işe yarar?</h1>
-<p>Ülkemizde atana tc kimlik numaraları belirli bir algoritma ile atanmaktadır bu basit kod örneğide bu algoritmayı kullanarak diğer aile üyelerinin tc numaralarını hesaplamayı hedefler. Test ettiğim kendi tc numaramda işe yaramıştır python3 ile algoritma örneği açısından kodu paylaşmaktayım ama kod ile işlenen herhangi bir suç işleyenin sorumluluğundadır herhangi bir sorumluluk kabul etmiyorum.</p>
+# Ne İşe Yarar ?
+
+Ülkemizdeki bireylere atanan TCKN numrası rastgele olarak atanmıyor, matematiksel olarak belli kurallara dayanarak atandığı için bunu python3 dili ile otomatik olarak hesaplamasını sağlayan bir koddur. MIT lisansı altında dağıtılmaktadır.
 
 
-<h1>Ekran görüntüleri:</h1>
+## Özellikleri:
 
-<h2>Örnek kullanım:</h2>
-<img src="img/example.jpg" />
-<hr>
-<h2>Help menüsü:</h2>
-<img src="img/help.png"/>
+-> Otomatik olarak TCKN geçerliliğini kontrol eder
+-> İstenen adette ileri ve geriye yönelik hesaplama yapar
+-> Python3.x projeleri için TCKN_Calculator dizini bir kütüphanedir istendiği an koda entegre edilebilir 
 
-<br>
-<h1>Bağımlılıklar:</h1>
+
+## Bağımlılıkların Kurulması:
 
 ```sh
-python3 -m pip install colorama argparse  #linux & Macos
+python3 -m pip install argparse  #linux & Macos
 ```
 ```sh
-pip install colorama argparse #windows
+pip install argparse #windows
 ```
 
-<h1>Son yenilikler:</h1>
-<p>Ek olarak python projelerinde kullanılabilmesi için direk modül olarak destek eklenmiştir</p>
+
+## Örneklerden Ekran Görüntüsü 
+
+-> Aşşağıdaki Örneklerde Kullanılan TCKN numarası herhangi bir kişiye ait değildir matematiksel olarak geçerli ama rastgele üretilmiştir.
+
+
+### Geçerli Bir TCKN için:
+
+<img src="./img/ValidTC.png">
+
+
+
+
+### Geçersiz Bir TCKN için:
+
+<img src="./img/NotValidTc.png">
+
+
+
+
+
